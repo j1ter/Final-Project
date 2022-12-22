@@ -1,0 +1,42 @@
+.title {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+  }
+  
+  .title > strong {
+    margin-right: 16px;
+    font-size: 14px;
+  }
+  
+  .company {
+    color: var(--desaturated-dark-cyan);
+  }
+  
+  .type {
+    color: var(--very-dark-grayish-cyan);
+    margin-top: 8px;
+    display: block;
+    transition: .3s;
+    cursor: pointer;
+  }
+  
+  .type:hover{
+    color: var(--desaturated-dark-cyan);
+  }
+  
+  .tags {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  @media (min-width: 900px){
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }

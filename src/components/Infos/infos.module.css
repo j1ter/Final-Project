@@ -1,0 +1,22 @@
+.infos {
+    color: var(--dark-grayish-cyan);
+    display: flex;
+    margin-top: 12px;
+    font-size: 14px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--dark-grayish-cyan);
+  }
+  
+  .infos > li {
+    margin-right: 18px;
+  }
+  
+  .infos > li:first-of-type {
+    list-style: none;
+  }
+  
+  @media (min-width: 900px){
+    .infos {
+      border-bottom: none;
+    }
+  }
